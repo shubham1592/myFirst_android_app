@@ -14,5 +14,8 @@ class MainActivity : AppCompatActivity() {
     fun showToast(name: String = "Shubham", value: Int){
         Toast.makeText(this, "Shubham"+value, Toast.LENGTH_LONG).show()
     }
-    
+    fun handleClick(view: android.view.View){
+        Toast.makeText(this, "LOGGING IN", Toast.LENGTH_LONG).show()
+    }
+
 }

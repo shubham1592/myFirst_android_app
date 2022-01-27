@@ -30,6 +30,7 @@
         android:background="#009688"
         android:backgroundTint="#009688"
         android:checkable="false"
+        android:onClick="handleClick"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
